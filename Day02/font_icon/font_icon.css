@@ -1,0 +1,22 @@
+/* link는 html head에 넣기 */
+/* font-face는 css에 넣기 */
+
+.moirai-one-regular {
+  font-family: "Moirai One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "HS-Regular";
+  src: url("https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.abc {
+  font-family: "HS-Regular";
+  font-size: 50px;
+}

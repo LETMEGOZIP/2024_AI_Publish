@@ -1,0 +1,18 @@
+.line {
+  display: flex;
+  flex-direction: row;
+}
+
+.goods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 120px;
+  height: 120px;
+}
+
+.consize {
+  font-size: 30px;
+}

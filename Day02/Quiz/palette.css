@@ -1,0 +1,75 @@
+div {
+  font-weight: 600;
+}
+
+button {
+  padding: 40px;
+  border-radius: 6px;
+}
+
+/* 버튼에 다 먹이지 말고 이중 클래스 사용으로 처리해야 됨 */
+
+.box {
+  width: 1500px;
+  height: 200px;
+}
+
+.hex {
+  text-transform: uppercase;
+}
+
+.color1 {
+  background-color: #f2f9f9;
+  border: 1px solid #f2f9f9;
+}
+
+.color2 {
+  background-color: #ddeff0;
+  border: 1px solid #ddeff0;
+}
+
+.color3 {
+  background-color: #bfe0e2;
+  border: 1px solid #bfe0e2;
+}
+
+.color4 {
+  background-color: #92cace;
+  border: 1px solid #92cace;
+}
+
+.color5 {
+  background-color: #5faab1;
+  border: 1px solid #5faab1;
+}
+
+.color6 {
+  color: white;
+  background-color: #438e96;
+  border: 1px solid #438e96;
+}
+.color7 {
+  color: white;
+  background-color: #3b757f;
+  border: 1px solid #3b757f;
+}
+.color8 {
+  color: white;
+  background-color: #356169;
+  border: 1px solid #356169;
+}
+.color9 {
+  color: white;
+  background-color: #325158;
+  border: 1px solid #325158;
+}
+.color10 {
+  color: white;
+  background-color: #2d464c;
+  border: 1px solid #2d464c;
+}
+.color11 {
+  color: white;
+  background-color: #1a2c32;
+  border: 1px solid #1a2c32;
+}

@@ -1,0 +1,13 @@
+.category {
+  font-weight: 900;
+  background-color: white;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 14px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+
+.selall {
+  background-color: rgb(68, 176, 219);
+  color: white;
+}
