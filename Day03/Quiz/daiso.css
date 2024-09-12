@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content; /* 아니면 숫자 고정하기 */
+  gap: 20px;
+}
+
+.productwindow {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.news {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.newcome {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.product {
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.album {
+  width: 225px;
+  height: 300px;
+  background-size: contain;
+}
+
+.one {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240904/tF4murpPzedjBN03Z86a1047816_00_00tF4murpPzedjBN03Z86a.jpg/dims/resize/320/quality/90");
+}
+
+.two {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240911/EwxznUL7BdU0JsKtDyV21053921_00_00EwxznUL7BdU0JsKtDyV2.jpg/dims/resize/320/quality/90");
+}
+
+.three {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240822/cfzWDxQLWDONeK7ZCs8M1049422_00_00cfzWDxQLWDONeK7ZCs8M.jpg/dims/resize/320/quality/90");
+}
+
+.four {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240903/GeIgXwqMVtIqg3AJEOM91049947_00_00GeIgXwqMVtIqg3AJEOM9.jpg/dims/resize/320/quality/90");
+}
+
+.five {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240826/ntz4aGMDjqT2L0a5ngjo1059502_00_00ntz4aGMDjqT2L0a5ngjo.jpg/dims/resize/320/quality/90");
+}
+
+.shopbag {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  opacity: 0.5;
+  border-radius: 100px;
+  position: relative;
+  top: 240px;
+  left: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag {
+  font-size: 28px;
+  color: white;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.name {
+  width: 100%;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.views {
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.new {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+  font-size: 14px;
+}

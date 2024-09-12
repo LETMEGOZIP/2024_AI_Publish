@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+}
+
+.album {
+  width: 100%;
+  height: 350px;
+}
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.pricetag {
+  display: flex;
+  flex-direction: row;
+  font-weight: 800;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.discount {
+  color: red;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.product {
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 0.6;
+}
