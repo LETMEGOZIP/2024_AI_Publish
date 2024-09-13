@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+}
+header {
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+li {
+  list-style: none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 50px;
+  width: 120px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.menus {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: first;
+  gap: 40px;
+}
+
+.menu {
+  color: #bbbbb0;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.menu:hover {
+  color: white;
+}
+
+.supports {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-right: 50px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.support {
+  color: #bbbbb0;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.support:hover {
+  color: white;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  color: #bbbbb0;
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  color: white;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg");
+  background-size: cover;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.catchphrase {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 200px;
+  padding-left: 150px;
+  font-family: sans-serif;
+}
+
+.vehicle {
+  font-size: 40px;
+}
+
+.model {
+  font-size: 80px;
+}
+
+.ad {
+  font-size: 30px;
+}
+
+.estimate {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+  padding-top: 200px;
+  gap: 40px;
+}
+
+.info {
+  color: white;
+  font-size: 20px;
+  transition: all 2s;
+}
+
+.info:hover {
+  padding-bottom: 0.5px;
+  border-bottom: 1px solid white;
+}

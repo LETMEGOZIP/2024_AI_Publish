@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+header {
+  width: 100vw;
+  background-color: white;
+  border-bottom: 0.5px solid #e5e8eb;
+  padding: 15px 40px 15px 40px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  z-index: 1;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+
+.one > div {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  gap: 30px;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #77808b;
+  font-size: 15px;
+  font-weight: 600;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language {
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.buttons:hover {
+  background-color: #8d97a394;
+  cursor: pointer;
+}
+
+.toss {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://static.toss.im/assets/homepage/newtossim/new_main.png");
+  background-size: cover;
+}
+
+.centeredbox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.whiteblur {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  /* 그라데이션 하얀색 */
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 170px;
+  gap: 15px;
+}
+
+.intro > h1 {
+  font-weight: 600;
+  font-size: 66px;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.linkbox {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 11px 22px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.568);
+  border: none;
+  gap: 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.linkbox:hover {
+  background-color: rgb(78, 89, 104);
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  object-fit: contain;
+}

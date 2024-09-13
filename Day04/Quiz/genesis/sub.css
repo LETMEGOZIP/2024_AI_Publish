@@ -1,0 +1,60 @@
+sub {
+  margin: 0;
+
+  background-color: black;
+}
+
+.sub {
+  padding: 200px 0px 30px 150px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub > h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.sub > h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.sub > h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.cars {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.car:hover {
+  border: 1px solid grey;
+}
+
+.carpic {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.name {
+  font-family: sans-serif;
+  font-size: 120;
+  text-align: left;
+}

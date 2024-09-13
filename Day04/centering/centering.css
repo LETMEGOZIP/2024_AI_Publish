@@ -1,0 +1,23 @@
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+
+.contents {
+  width: 100%;
+  /* 폭 상한치 제한 */
+  max-width: 1000px;
+  background-color: skyblue;
+  height: 100px;
+  /* auto = 치트키 */
+  margin: 0 auto;
+}
+
+.two {
+  width: 100vw;
+}
+
+.three {
+  width: 100vw;
+}
